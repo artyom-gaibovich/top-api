@@ -10,7 +10,7 @@ import {ProductModel} from "./product.model";
     TypegooseModule.forFeature([{
       typegooseClass : ProductModel,
       schemaOptions : {
-        collections : 'Product'
+        collection : 'Product'
       }
     }])
   ]
